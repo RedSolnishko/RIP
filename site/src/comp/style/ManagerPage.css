@@ -1,0 +1,69 @@
+h1 {
+  text-align: center;
+  color: aqua; /* Замените #ff0000 на желаемый цвет для <h1> */
+}
+
+p {
+  text-align: center;
+  color: #ffffff; /* Замените #00ff00 на желаемый цвет для <p> */
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+  input {
+    width: 100%; /* Full width of the form */
+    max-width: 400px; /* Maximum width for larger screens */
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: white;
+  }
+
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: white;
+    word-wrap: break-word; /* Позволяет переносить длинные слова */
+    word-break: break-all; /* Переносит длинные слова на следующую строку */
+    max-width: 200px; /* Установите максимальную ширину ячейки */
+  }
+  
+  th {
+    background-color: #734b4b;
+  }
+
+  body {
+    background-color: #161625; /* Замените #f0f0f0 на желаемый цвет */
+  }

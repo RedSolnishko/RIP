@@ -1,0 +1,8 @@
+/* File: src/Header.css */
+.user-icon img {
+    transition: color 0.3s ease; /* Добавляем плавный переход */
+  }
+  
+  .user-icon img:hover {
+    color: red; /* Замените 'red' на нужный вам цвет */
+  }
